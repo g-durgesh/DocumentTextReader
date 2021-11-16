@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using Spire.Pdf;
 using Spire.Pdf.Attachments;
-using iTextSharp.text.pdf.parser;
 using Spire.Pdf.Fields;
 using Spire.Pdf.Texts;
 using Spire.Pdf.Widget;
@@ -21,6 +20,7 @@ using Microsoft.Recognizers.Text;
 using Microsoft.Recognizers.Text.DateTime;
 using Emgu.CV;
 using Emgu.CV.Structure;
+using iTextSharp.text.pdf.parser;
 
 namespace DocumentTextReader.Controllers
 {
